@@ -79,3 +79,20 @@ body{
     font-size: 1.6rem;
     font-weight: 700;
 }
+
+.msg-error{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+}
+
+.msg-error > p{
+    color: #FFF;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
